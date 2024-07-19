@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kedai Kopi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+        body {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url('kopi.jpg');
+        color: #000000;
+      }
+      
+      header {
+        background-image: url(hiho.jpg);
+        color: white;
+        padding: 20px 0;
+      }
+      
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+        color: rgb(179, 228, 231);
+      }
+      
+
+      nav ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        margin-top: 20px;
+      }
+      
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+      
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+        transition: color 0.3s ease;
+      }
+      
+      nav ul li a:hover {
+        color: #ddd;
+      }
+      
+      #menu {
+        text-align: center;
+        padding: 50px 0;
+      }
+      
+      #menu h2 {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      
+      .menu-items .card {
+        border: none;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+      
+      .menu-items .card:hover {
+        transform: translateY(-5px);
+      }
+      
+      .menu-items .card img {
+        max-width: 100%;
+        height: auto;
+      }
+      
+      .menu-items .card-title {
+        font-weight: bold;
+      }
+      
+      .menu-items .card-text {
+        color: #777;
+      }
+      
+      section {
+        padding: 50px 0;
+      }
+      
+      section h2 {
+        margin-bottom: 30px;
+      }
+
+    </style>
+    
+</head>
+<body>
+
+  <header class="bg-dark text-light py-4">
+    <div class="container">
+      <h1 class="text-center">WARUNG KOPI PEMUDA</h1>
+    </div>
+    <nav class="navbar navbar-expand-lg">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toogle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> 
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="menu.html">Menu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="aboutme.html">Tentang Kami</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="kontak.html">Kontak</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+  </header>
+
+  <main class="py-5">
+    <div class="container">
+      <section id="menu">
+        <h2 class="mb-4">Detail Latte</h2>
+        <img src="latte.png" alt="Espresso">
+        <div class="row" id="menu-items">
+            <h4>Dalam bahasa Italia, Caffé artinya “kopi”, dan Latte adalah “susu”, jadi Caffé Latte artinya kopi susu. Caffé latte atau kopi latte ini merupakan salah satu jenis minuman kopi susu yang populer di samping Cappucino.
+
+                Sekilas, kedua jenis minuman ini memang mirip, tapi mereka punya takaran dan rasa yang berbeda, loh. Kopi latte memiliki rasa yang lebih milky, sedangkan cappucino punya rasa kopi yang lebih kuat.<br>
+                Kopi latte hadir di berbagai coffee shop sejak abad ke-20, namun menurut cerita, kopi latte kemungkinan sudah ada sejak abad ke-17 lalu. Kopi latte berawal di Italia, di mana banyak turis Amerika yang datang dan merasa kurang cocok dengan tingkat kepahitan kopi yang diberikan.
+
+                Akhirnya, ditambahkan susu untuk mengurangi atau menyeimbangkan rasa pahit dalam kopi tersebut. Selanjutnya, takaran susu tersebut dipatenkan dan jadilah menu kopi latte yang lebih bisa diterima banyak orang.
+                
+                Dulu, kopi latte hadir sebagai breakfast coffee atau booster di pagi hari karena kandungan kopinya yang cukup intens dan pas untuk memulai hari. Namun sekarang, banyak juga orang yang menikmati kopi latte di sore hari</h4>
+        </div>
+    </section>
+        
+  </main>
+  
+</body>
+</html>
